@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>grass.ts</title>
+  <link rel="stylesheet" type="text/css" href="main.css"> 
+</head>
+<body>
+  <label for="code">Code:</label>
+  <textarea id="code" name="code" rows="10" cols="80"></textarea>
+  <label for="stdin">stdIn:</label>
+  <textarea id="stdin" name="stdin" rows="5" cols="80"></textarea>
+  <input type="button" value="execute" id="exec_button">
+  <label for="stdout">stdOut:</label>
+  <textarea id="stdout" name="stdout" rows="5" cols="80" readonly></textarea>
+  <label for="stderr">stdErr:</label>
+  <textarea id="stderr" name="stderr" rows="5" cols="80" readonly></textarea>
+
+  <script src="./grass.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
